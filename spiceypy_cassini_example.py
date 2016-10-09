@@ -8,7 +8,7 @@ import spiceypy as spice
 import numpy as np
 
 # print out the toolkit version
-#print(spice.tkvrsn('TOOLKIT'))
+print(spice.tkvrsn('TOOLKIT'))
 
 spice.furnsh('./cassini_kernel/cassMetaK.txt')
 
