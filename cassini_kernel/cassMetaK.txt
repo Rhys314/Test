@@ -10,15 +10,16 @@
 #   http://naif.jpl.nasa.gov/pub/naif/CASSINI/kernels/spk/981005_PLTEPH-DE405S.bsp
 #
 #   The following is the contents of a metakernel that was saved with
-#   the name 'cassMetaK.txt'.\begindata
+#   the name 'cassMetaK.txt'.
+\begindata
 KERNELS_TO_LOAD=(
-'naif0009.tls',
-'cas00084.tsc',
-'cpck05Mar2004.tpc',
-'020514_SE_SAT105.bsp',
-'981005_PLTEPH-DE405S.bsp',
-'030201AP_SK_SM546_T45.bsp',
-'04135_04171pc_psiv2.bc',
-'cas_v37.tf',
-'cas_iss_v09.ti')
+'./cassini_kernel/naif0009.tls',
+'./cassini_kernel/cas00084.tsc',
+'./cassini_kernel/cpck05Mar2004.tpc',
+'./cassini_kernel/020514_SE_SAT105.bsp',
+'./cassini_kernel/981005_PLTEPH-DE405S.bsp',
+'./cassini_kernel/030201AP_SK_SM546_T45.bsp',
+'./cassini_kernel/04135_04171pc_psiv2.bc',
+'./cassini_kernel/cas_v37.tf',
+'./cassini_kernel/cas_iss_v09.ti')
 \begintext
